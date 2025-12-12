@@ -2,6 +2,9 @@ As you explore these resources, remember that each step is building the foundati
 
 Enjoy the learning process—ask questions, experiment, and explore!
 
+github tutorial for beginners.[Github](https://www.freecodecamp.org/news/git-and-github-for-beginners/)
+
+
 ---
 
 ## Week1
@@ -16,3 +19,4 @@ cd web_scraping 2k25
 ```
 
 Assignment for this week has been added. Find it [here](./Week1-Assignment).
+
