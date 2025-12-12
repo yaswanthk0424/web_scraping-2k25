@@ -9,7 +9,7 @@ github tutorial for beginners.[Github](https://www.freecodecamp.org/news/git-and
 
 ## Week1
 
-Please find the resources for Week1 in [Week1-Resources](./Week1-Resources)
+Please find the resources for Week1 in [Week1-Resources](./Week1-Resources) and also find [here](./09-git.pdf)
 
 Before you get started with the assignment, ceate a GitHub repository. Clone it onto your system by using this command in your terminal:
 
