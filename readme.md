@@ -1,11 +1,27 @@
+# My Work Summary (Midterm)
+## Works Completed
+<ul>
+  <li> Analyzing given tabular 2011 census data and extracting statistical information along with plotting graphs about literacy and employment  </li>
+  <li> I devoloped <strong> a movie review website </strong>using<strong> HTML and CSS</strong> which contains tabular representation of data related to movies</li>
+</ul>
+
+---
+## Key Learnings
+<ol>
+  <li> Week 1 - <strong> Python </strong> upto methods related to  lists, tuples, sets and dictionaries</li>
+  <li> Week 2 - Analysing tabular data using <strong> numpy and pandas </strong>,  learnt some <strong>HTML and CSS</strong>
+  </li>
+  <li> Week 3 - <strong> Parsing data </strong> from websites using <strong> BeautifulSoup </strong> </li>
+</ol>
+
+---
+# Original Project Documentation (Mentor)
 As you explore these resources, remember that each step is building the foundation of your data science and programming journey. Learning Python and its libraries will open doors to analyzing data, automating tasks, and solving real-world problems. With patience and practice, you'll develop skills that highly adaptable to a variety of fields.
 
 Enjoy the learning process—ask questions, experiment, and explore!
 
 github tutorial for beginners.[Github](https://www.freecodecamp.org/news/git-and-github-for-beginners/) and also find [here](./09-Git.pdf)
 
-
----
 
 ## Week1
 
@@ -57,3 +73,4 @@ No assignment for this week :)
 Here is the [link to the problem statement of final project](https://docs.google.com/document/d/1AtHvGmtSVjDW1aG_IHbZXG1eM4Z1KgRB-L1Gpt9c9OI/edit?usp=drivesdk). You should try to not just stick to the Problem Stement; try to add other details and features of your own. 
 
 Best of Luck!!!
+---
