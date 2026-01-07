@@ -3,6 +3,7 @@
 <ul>
   <li> Analyzing given tabular 2011 census data and extracting statistical information along with plotting graphs about literacy and employment  </li>
   <li> I devoloped <strong> a movie review website </strong>using<strong> HTML and CSS</strong> which contains tabular representation of data related to movies</li>
+  <li> I devoloped a <strong>basic price tracker application using Python</strong> which also sends <strong>notification</strong> to customers when price drops using <strong>email</strong></li>
 </ul>
 
 ---
@@ -11,7 +12,7 @@
   <li> Week 1 - <strong> Python </strong> upto methods related to  lists, tuples, sets and dictionaries</li>
   <li> Week 2 - Analysing tabular data using <strong> numpy and pandas </strong>,  learnt some <strong>HTML and CSS</strong>
   </li>
-  <li> Week 3 - <strong> Parsing data </strong> from websites using <strong> BeautifulSoup </strong> </li>
+  <li> Week 3 - <strong> Parsing data </strong> from websites using <strong> BeautifulSoup </strong>, Sending emails using <strong>Python</strong> </li>
 </ol>
 
 ---
