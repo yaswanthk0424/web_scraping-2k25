@@ -18,12 +18,13 @@ def check_price(soup, prev_price=0):
   
     #TODO 1: Fetch the Product Title (it should be a string) using the soup object
     #<START>
-    title = None 
+    title = soup.find("title").get_text()
     #<END>
 
     #TODO 2: Fetch the Price using the Soup Object. It should also be a string
     #<START>
-    price = None 
+    price_tag = soup.find("span",class_="a-price-whole")
+    price = price_tag.get_text().replace(",","").strip() if price_tag else "0"
     #<END>
     
     #converting the string amount to float
@@ -62,7 +63,7 @@ def send_mail(diff,below_budget=True):
     
     server.sendmail(
       params["Sender_Email"],   # enter sender email id
-      params["Reciever_Email"], # enter receiver email id
+      params["Receiver_Email"], # enter receiver email id
       msg                   # message that is to be sent
     )
     #print a message to check if the email has been sent
@@ -109,15 +110,16 @@ prev_price = 0
 
 while(True):
 
-  # send a request to fetch HTML of the page
+  # send a request to fetch HTML of the page 
+  url=params["URL"]
   #TODO 3: Fetch the response oject from URL and headers specified in params.json using requests library
   #<START>
-  response = None 
+  response = requests.get(url,headers=headers)
   #<END>
 
   # create the soup object  
   #<TODO 4: Parse the response into a bs4 soup object using appropriate parser and encoding and store it in an object named soup
-  soup = None
+  soup = BeautifulSoup(response.text,'html.parser')
   #<END>
 
   prev_price = check_price(soup, prev_price)
